@@ -1,0 +1,151 @@
+div {
+  border: 1px solid white;
+}
+
+body {
+margin-top: 0;
+font-family: helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+}
+
+/*  Header section */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px
+}
+
+header nav {
+   padding-right: 10px;
+ }
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+
+/* Main content */
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Mission section */
+.mission-container {
+  width: 1200px;
+  height: 700px;
+  background-image: url(./resources/images/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+
+
+/* Tea of the month section */
+
+.tea-container {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-directio: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.tea-items {
+  width: 320px;
+  height: 265px;
+}
+
+.tea-items img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea-items span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  }
+
+/* Location Section */
+
+.location-container {
+
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
